@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/content-licensing.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.streaming-token]
+path = 'contracts/streaming-token.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
