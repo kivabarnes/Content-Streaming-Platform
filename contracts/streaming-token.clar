@@ -49,4 +49,3 @@
 (define-read-only (get-balance (user principal))
   (ok (ft-get-balance streaming-token user))
 )
-
